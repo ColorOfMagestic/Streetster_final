@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike</title>
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- header -->
+    <header class="header-bike">
+        <div class="container">
+            <h1 class="visually-hidden">Bike</h1>
+            <div class="top-bar">
+              <div class="top-bar_logo-block">
+                <a href="./category.html">
+                  <picture>
+                      <source srcset="./img/logo_header_black.png">
+                      <source srcset="./img/logo_header_black.webp">
+                  <img class="top-bar-img" src="./img/logo_header_black.png" alt="" />
+                </picture>
+                </a>
+              </div>
+              <form class="header-form" action="">
+                <input class="header-search" type="search" placeholder="">
+              </form>                  
+                 <div class="card_menu">
+                   <div class="cart_block cart_block--closed">
+                     <h5 class="cart_block-title">
+                      В корзине 2 товара
+                     </h5>
+                     <div class="cart_block-item">
+                       <img class="cart_block-item_img" src="img/bicycle_in_cart.png" alt="">
+                      <div class="cart_block-item_content">
+                        <div class="content_name">STREETSTER NATAN</div>
+                        <div class="content_price">
+                          6000 ₴
+                        </div>
+                      </div>
+                     </div>
+                     
+                     <div class="cart_block-item">
+                      <img class="cart_block-item_img" src="img/helmet_in_cart.png" alt="">
+                     <div class="cart_block-item_content">
+                       <div class="content_name">STREETSTER NATAN</div>
+                       <div class="content_price">
+                         6000 ₴
+                       </div>
+                     </div>
+                    </div>
+                    <button class="cart_block_btn">
+                      заказать
+                    </button>
+                   </div>
+                   <button class="cart">
+                </button>
+                <div class="header-menu header-menu--closed">
+                  <div class="top-block">
+                    <div class="lang">
+                      <a class="lang lang--ru"href="">RU</a>
+                      /
+                      <a class="lang lang--en"href="">EN</a>
+                    </div>
+                  </div>
+                    <ul class="menu_categories">
+                      <li class="menu-categories-item">
+                        <a href="" class="menu-categories-item-link">ROAD SERIES</a>
+                      </li>
+                      <li class="menu-categories-item">
+                        <a href="" class="menu-categories-item-link">STREET SERIES</a>
+                      </li>
+                      <li class="menu-categories-item">
+                        <a href="" class="menu-categories-item-link">MOUNTAIN SERIES</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-info">
+                      <li class="menu-info-item"><a href="" class="menu-info-item-link">
+                        Новости
+                      </a></li>
+                      <li class="menu-info-item"><a href="" class="menu-info-item-link">
+                        О нас
+                      </a></li>
+                      <li class="menu-info-item"><a href="" class="menu-info-item-link">
+                        Контакты
+                      </a></li>
+                    </ul>
+                    <div class="social_menu">
+                      <a href="" class="social_menu-link social_menu-link-ig">IG</a>
+                      <a href="" class="social_menu-link social_menu-link-fb">FB</a>
+                      </div>
+                </div>
+                <button class="burger-menu ">
+                  <span class="burger-menu_decor"></span>
+                </button>
+                 </div>
+            </div>
+            <section class="header-bike_content">
+                <div class="header-bike-slider">
+                    <div class="header-bike-slider_content">
+                      <img class="header-bike-slider_img" src="./img/cat-nath-by.png" alt="" >
+                    </div>
+                    <button class="header-bike-slider_button-prew"></button>
+                    <button class="header-bike-slider_button-next"></button>
+                    <div class="header-bike-slider_dots">
+                      <span class="dot dot--active"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+            </section>
+            <aside class="header-bike-order-price">
+              <div class="order-price-wrapper">
+                <h3 class="order-price_title">
+                    STREETSTER NATHAN
+                </h3>
+                <span class="order-price-total">12000 ₴</span>
+                <div class="order_colors">
+                    <h5 class="order_colors_title">Цвет :</h5>
+                    <span class="colors_title_span">Черный</span>
+                    <div class="color_wrapper">
+                      <label class="color-label-radio">
+                        <input type="radio" class="color-radio" name="one" checked>
+                        <span class="color color--one color--active"></span>
+                      </label>
+                      <label class="color-label-radio">
+                        <input type="radio" class="color-radio" name="two" checked>
+                        <span class="color color--two"></span>
+                      </label>
+                      <label class="color-label-radio">
+                        <input type="radio" class="color-radio" name="tree" checked>
+                        <span class="color color--three"></span>
+                      </label>
+                    </div>
+                  </div>
+                <div class="order_chassis">
+                    <h5 class="order_chassis_title">Рама:</h5> 
+                    <span class="order_chassis_span">54” (Рост 175-185 см)</span>
+                    <div class="order_chassis_radio_wrapper">
+                        <label class="order_chassis_label">
+                        <input class="chassis_radio" type="radio" name="chassis" checked>
+                        <span class="chassis-radio-span radio--one"></span>
+                        </label>
+                        
+                        <label class="order_chassis_label">
+                        <input class="chassis_radio" type="radio" name="chassis">
+                        <span class="chassis-radio-span radio--two"></span>
+                        </label>   
+
+                    </div> 
+                </div>
+                <div class="additional_accessories">
+                    <h5 class="additional_accessories_title">
+                        Доп. Аксессуары
+                    </h5>
+                    <div class="additional_accessories_wrapper">
+                        <div class="accessory">
+                            <img  class="accessory-pic" src="./img/bicycle_helmet_PNG.png" alt="">
+                            <p class="accessory-text">
+                                Шлем Octane <span class="accessory_price">500 ₴</span> 
+                            </p>
+                            <button class="accessory-btn accessory-btn--add">+</button>
+                        </div>
+                        <div class="accessory">
+                            <img  class="accessory-pic" src="./img/Canyon_Ass.png" alt="">
+                            <p class="accessory-text">
+                                Защита Canyon <span class="accessory_price">500 ₴</span> 
+                            </p>
+                            <button class="accessory-btn accessory-btn--del">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-total">
+                    <p class="order-total-text">
+                      Итого:
+                    </p>
+                    <span class="order-total-text_span">12500 ₴</span>
+                </div>
+                <a class="order-price-btn" href="./making-order.html">заказать</a>
+              </div>
+            </aside>
+          </div>
+        </header>
+    <!-- /header -->
+    <!-- main -->
+    <main class="main-bike">
+      <div class="container">
+        <section class="main-bike_content">
+          <dl class="bike-description">
+            <dt  class="bike-description_title">Описание</dt>
+            <dd class="bike-description_text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Est modi saepe ab error quia deserunt aspernatur numquam repudiandae in,
+                temporibus ut natus suscipit maiores,
+                 praesentium ullam a consequuntur ipsam vitae quaerat earum explicabo.
+            </dd>
+            <dd  class="bike-description_text">
+            Neque cum magnam illum, laudantium,
+            autem amet hic, nostrum sit culpa explicabo ab! Illo,
+            hic similique dolore ex voluptatum cum, aut vitae nostrum vero,
+            odio incidunt.</dd>
+          </dl>
+          <div class="reviews">
+            <h4 class="reviews_title">Отзывы</h4>
+            <div class="reviews-cards">
+              <div class="feedback">
+                <div class="autor">Андрей Л.</div>
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                </div>
+                <blockquote class="feedback-text">Lorem ipsum dolor, 
+                sit amet consectetur adipisicing elit.
+                Perferendis voluptatibus temporibus voluptatem!
+                </blockquote>
+              </div>
+            </div>
+            <div class="reviews-cards">
+              <div class="feedback">
+                <div class="autor">Ахмед Б.</div>
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                </div>
+                <blockquote class="feedback-text">Lorem ipsum dolor, 
+                sit amet consectetur adipisicing elit.
+                Perferendis voluptatibus temporibus voluptatem!
+                Perferendis voluptatibus temporibus voluptatem!
+              </blockquote>
+              </div>
+            </div>
+          </div>          
+        </section>
+        <section class="other-models">
+          <h3 class="other-models_title">
+            Другие модели Road Series
+          </h3>
+          <div class="other-models_cards">
+            <div class="other-models_card other-models_card--nathan">
+              <img class="other-models_pic" src="./img/other_mad_nat.png" alt="">
+              <div class="other-models_card_wrapper">
+                <div class="other-models_card_content">
+                <h2 class="other-models_name">NATHAN</h2>
+                <span class="other-models_price">12000 ₴</span>
+              </div>
+              <div class="other-models_colors">
+                <span class="other-models_color other-models_color--black"></span>
+                <span class="other-models_color other-models_color--blue"></span>
+                <span class="other-models_color other-models_color--red"></span>
+              </div>
+              </div>
+            </div>
+            <div class="other-models_card other-models_card--baker">
+              <img class="other-models_pic" src="./img/other_mad_baker.png" alt="">
+              <div class="other-models_card_wrapper">
+                <div class="other-models_card_content">
+                <h2 class="other-models_name">BAKERSTR</h2>
+                <span class="other-models_price">12000 ₴</span>
+              </div>
+              <div class="other-models_colors">
+                <span class="other-models_color other-models_color--blue"></span>
+                <span class="other-models_color other-models_color--white"></span>
+              </div>
+              </div>
+            </div>
+            <div class="other-models_card other-models_card--broad">
+              <img class="other-models_pic" src="./img/other_mad_broad.png" alt="">
+              <div class="other-models_card_wrapper">
+                <div class="other-models_card_content">
+                <h2 class="other-models_name">BROADWAY</h2>
+                <span class="other-models_price">12000 ₴</span>
+              </div>
+              <div class="other-models_colors">
+                <span class="other-models_color other-models_color--yellow"></span>
+                <span class="other-models_color other-models_color--red"></span>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- /main -->
+    <!--footer -->
+    <footer class="main-footer">
+    <div class="container">
+    <!-- footer-content -->
+      <div class="footer-content">
+          <img src="img/logo_footer.png" alt="" class="main-footer-logo">
+          <ul class="footer-categories">
+            <h5 class="footer-categories-title">Категории</h5>
+            <li class="footer-categories-item"><a class="footer-categories-item-link" href="">ROAD SERIES</a></li>
+            <li class="footer-categories-item"><a class="footer-categories-item-link" href="">STREET SERIES</a></li>
+            <li class="footer-categories-item"><a class="footer-categories-item-link" href="">MOUNTAIN SERIES</a></li>
+          </ul>
+          <ul class="footer-info">
+            <h5 class="footer-info-title">Информация</h5>
+            <li class="footer-info-item"><a
+              class="footer-info-item-link" href="">О нас</a></li>
+            <li class="footer-info-item"><a
+              class="footer-info-item-link" href="">Контакты</a></li>
+          </ul>
+          <ul class="footer-categories">
+            <h5 class="footer-categories-title">Категории</h5>
+            <li class="footer-categories-item">
+              <a class="footer-categories-item-link" href="">ROAD SERIES</a>
+            </li>
+            <li class="footer-categories-item"><a class="footer-categories-item-link" href="">STREET SERIES</a></li>
+            <li class="footer-categories-item"><a
+              class="footer-categories-item-link" href="">MOUNTAIN SERIES</a></li>
+          </ul>
+          <ul class="footer-info">
+            <h5 class="footer-info-title">Информация</h5>
+            <li class="footer-info-item"><a
+              class="footer-info-item-link" href="">О нас</a></li>
+            <li class="footer-info-item"><a
+              class="footer-info-item-link" href="">Контакты</a></li>
+          </ul>
+          <div class="social">
+          <a href="" class="social-link social-link-ig">IG</a>
+          <a href="" class="social-link social-link-fb">FB</a>
+          </div>
+        </div>
+      </div>
+      <!--/footer-content -->
+      <!-- footer-copyright -->
+    <div class="copyright">
+      <p class="copyright-text">© STREETSTER — Все права защищены.</p>
+    </div>
+    <!-- footer-copyright -->
+    </footer>
+    <!--/footer -->
+    <script src="js/main.min.js"></script>
+</body>
+</html>
